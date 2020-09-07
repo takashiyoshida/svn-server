@@ -38,5 +38,5 @@ If you need to create a separate project root directory, you can do something li
 
 ```
 svn mkdir -m "Add project root directory" http://localhost/svn/repos/<project-root-directory>
-svn admin load --parent-dir <project-root-directory> /home/svn/repos < /data/<SVN dump file>
+svnadmin load --parent-dir <project-root-directory> /home/svn/repos < /data/<SVN dump file>
 ```
