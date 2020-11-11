@@ -7,7 +7,7 @@ A Docker container providing a Subversion (SVN) server, based on CentOS 8. You c
 To run the image, you can use the following command:
 
 ```
-docker run -d --name svn-server -p 80:80 takashiyoshida:svn-server
+docker run -d --name svn-server -p 80:80 takashiyoshida/svn-server
 ```
 
 ## Configuration
