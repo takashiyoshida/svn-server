@@ -2,7 +2,8 @@ FROM centos:8
 
 # Install Apache, Subversion and mod_dav_svn
 RUN yum -y update && \
-    yum -y install httpd subversion mod_dav_svn
+    yum -y install httpd subversion mod_dav_svn \
+    glibc-langpack-en python2
 
 # Copy Subversion-related configuration file
 ADD subversion.conf /etc/httpd/conf.d/subversion.conf
