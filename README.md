@@ -31,7 +31,7 @@ docker exec -it svn-server bash
 ```
 
 ```
-svn admin load /home/svn/repos < /data/<SVN dump file>
+svnadmin load /home/svn/repos < /data/<SVN dump file>
 ```
 
 If you need to create a separate project root directory, you can do something like this:
